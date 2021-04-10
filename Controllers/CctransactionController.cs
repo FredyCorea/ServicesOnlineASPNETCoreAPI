@@ -29,8 +29,15 @@ namespace ServicesOnLineAPI.Controllers
           [HttpGet]
           public IActionResult Get()
           {
-               var cct = DataRepository.GetAll();
-               return Ok(cct);
+               try
+               {
+                    var cct = DataRepository.GetAll();
+                    return Ok(cct);
+               }
+               catch (Exception ex)
+               {
+                    return BadRequest(ex.ToString());
+               }
           }
 
      }

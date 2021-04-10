@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnLineAPI.csproj": {}
+    "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnlineASPNETCoreAPI\\ServicesOnLineAPI.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnLineAPI.csproj": {
+    "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnlineASPNETCoreAPI\\ServicesOnLineAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnLineAPI.csproj",
+        "projectUniqueName": "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnlineASPNETCoreAPI\\ServicesOnLineAPI.csproj",
         "projectName": "ServicesOnLineAPI",
-        "projectPath": "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnLineAPI.csproj",
+        "projectPath": "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnlineASPNETCoreAPI\\ServicesOnLineAPI.csproj",
         "packagesPath": "C:\\Users\\fredy\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\obj\\",
+        "outputPath": "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnlineASPNETCoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

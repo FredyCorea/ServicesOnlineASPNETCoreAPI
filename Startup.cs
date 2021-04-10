@@ -67,6 +67,7 @@ namespace ServicesOnLineAPI
                services.AddAutoMapper(typeof(Startup));
 
                services.AddControllers();
+
                services.AddSwaggerGen(c => {
                     c.SwaggerDoc("v1", new OpenApiInfo { Title = "ServicesOnLineAPI", Version = "v1" });
                });
@@ -98,6 +99,14 @@ namespace ServicesOnLineAPI
                //{
                //     endpoints.MapControllers();
                //});
+
+               //This will make the Swager index page to appear when deployex in the IIS
+               app.UseSwaggerUI(c =>
+               {
+                    string swaggerJsonBasePath = string.IsNullOrWhiteSpace(c.RoutePrefix) ? "." : "..";
+                    c.SwaggerEndpoint($"{swaggerJsonBasePath}/swagger/v1/swagger.json", "ServicesOnLine");
+
+               });
 
                app.UseEndpoints(endpoints =>
                {

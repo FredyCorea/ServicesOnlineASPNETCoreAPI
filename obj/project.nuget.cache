@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0E0X1WH9ftHft35lKnfbGii4/xHox4oP1qvPWa5qU/KuvDY7qN+gJshoCAhzhWdEBlxx+G5xwprslqSxYjRjfA==",
+  "dgSpecHash": "y1bM1qm30qa/TATjYLTF9vtlpIMiNAtjCOdW1xL6+X6RQYqYb/EMpF7qS6zjoz+D/uyweRoZR24Z8pH/99yRFg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnLineAPI.csproj",
+  "projectFilePath": "C:\\Projects\\ServicesOnLine\\ServicesOnLineAPI\\ServicesOnlineASPNETCoreAPI\\ServicesOnLineAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fredy\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\fredy\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
