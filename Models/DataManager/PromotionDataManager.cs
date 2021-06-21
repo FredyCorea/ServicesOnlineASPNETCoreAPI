@@ -1,4 +1,4 @@
-﻿using ServicesOnLineAPI.Models.DTO;
+﻿using ServicesOnLineAPI.Models.DataTransferObject;
 using ServicesOnLineAPI.Models.Repository;
 using System;
 using System.Collections.Generic;

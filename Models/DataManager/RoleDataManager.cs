@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using ServicesOnLineAPI.Models.DTO;
+using ServicesOnLineAPI.Models.DataTransferObject;
 using ServicesOnLineAPI.Models.Repository;
 
 namespace ServicesOnLineAPI.Models.DataManager

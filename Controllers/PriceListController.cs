@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using ServicesOnLineAPI.Models.DTO;
+using ServicesOnLineAPI.Models.DataTransferObject;
 using ServicesOnLineAPI.Models.Repository;
 using System;
 using System.Collections.Generic;

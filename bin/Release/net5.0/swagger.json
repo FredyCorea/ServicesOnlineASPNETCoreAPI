@@ -5,6 +5,18 @@
     "version": "v1"
   },
   "paths": {
+    "/api/Address": {
+      "get": {
+        "tags": [
+          "Address"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Cctransaction": {
       "get": {
         "tags": [

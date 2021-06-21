@@ -1,5 +1,5 @@
 ﻿using ServicesOnLineAPI.Models.Repository;
-using ServicesOnLineAPI.Models.DTO;
+using ServicesOnLineAPI.Models.DataTransferObject;
 using System;
 using System.Collections.Generic;
 using System.Linq;

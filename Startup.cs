@@ -9,7 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using ServicesOnLineAPI.Models.DataManager;
-using ServicesOnLineAPI.Models.DTO;
+using ServicesOnLineAPI.Models.DataTransferObject;
 using ServicesOnLineAPI.Models.Repository;
 using System;
 using System.Collections.Generic;
@@ -59,6 +59,8 @@ namespace ServicesOnLineAPI
                services.AddScoped<IDataRepository<Cctransaction, CctransactionDto>, CctransactionDataManager>();
                services.AddScoped<IDataRepository<Order, OrderDto>, OrderDataManager>();
                services.AddScoped<IDataRepository<PaymentHist, PaymentHistDto>, PaymentHistDataManager> ();
+               services.AddScoped<IDataRepository<Address, AddressDto>, AddressDataManager>();
+
 
                services.AddControllers().AddNewtonsoftJson(
                options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore

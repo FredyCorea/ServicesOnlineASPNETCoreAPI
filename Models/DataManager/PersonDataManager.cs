@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ServicesOnLineAPI.Models.DTO;
+using ServicesOnLineAPI.Models.DataTransferObject;
 using ServicesOnLineAPI.Models.Inputs;
 
 using ServicesOnLineAPI.Models.Repository;

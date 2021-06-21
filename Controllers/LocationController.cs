@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ServicesOnLineAPI.Models.DataManager;
+using ServicesOnLineAPI.Models.DataTransferObject;
 using ServicesOnLineAPI.Models.Repository;
 using System;
 using System.Collections.Generic;

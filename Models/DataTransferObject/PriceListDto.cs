@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ServicesOnLineAPI.Models.DTO
+namespace ServicesOnLineAPI.Models.DataTransferObject
 {
      public class PriceListDto
      {
